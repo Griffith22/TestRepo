@@ -1,0 +1,82 @@
+<h2>Github Tutorial for Beginners (18:53)</h2>
+<p>
+  <ac:structured-macro ac:macro-id="0e693c48-ea70-444f-8955-12299abaae10" ac:name="widget" ac:schema-version="1">
+    <ac:parameter ac:name="url">
+      <ri:url ri:value="https://www.youtube.com/watch?v=0fKg7e37bQE"/>
+    </ac:parameter>
+  </ac:structured-macro>
+</p>
+<p>
+  <a href="https://www.youtube.com/watch?v=0fKg7e37bQE">https://www.youtube.com/watch?v=0fKg7e37bQE</a>
+</p>
+<h3>Notes</h3>
+<h4>Advantages</h4>
+<ul>
+  <li>Multiple people can work on the same project simultaneously.<ul>
+      <li>
+        <em>Source control</em> - You can track the changes made by yourself, and other users.</li>
+      <li>
+        <em>Conflict resolution</em> - You do not lose changes you make to documents, and other people do not lose theirs either.</li>
+      <li>
+        <em>No need for meetings</em> - You do not need to be in the same room as your team to collaborate on a project.</li>
+    </ul>
+  </li>
+</ul>
+<h4>How the process works</h4>
+<ul>
+  <li>With the use of about five commands this simple yet powerful process takes place.</li>
+  <li>The group connects to a repository at github.com. The repository stores all of the information for the project, including files and folders.</li>
+  <li>Users connect to the repository to add their changes, or view the changes that others make to the files.</li>
+</ul>
+<h4>Step by step</h4>
+<p>
+  <code>git clone</code> to get a copy of the repository downloaded to your computer or sandbox</p>
+<p>
+  <code>git status</code> to see if there are any changes between your version of the repository, and the repository on github</p>
+<p>
+  <code>git add</code> to add the files with your changes to the commit.</p>
+<p>
+  <code>git commit</code> to create the commit with your changes.</p>
+<p>
+  <code>git push</code> to push the commit to the github repository.</p>
+<hr/>
+<h4>git clone</h4>
+<p>A user creates a repository.</p>
+<p>The user uploads their files to the repository.</p>
+<p>The group clones repository to their sandbox.</p>
+<p>When a user runs:</p>
+<p>
+  <code>git clone <a href="https://github.com/Griffith22/TestRepo.git">https://github.com/Griffith22/TestRepo.git</a>
+  </code>
+</p>
+<p>It copy the contents of the repository to a folder on thier sandbox.</p>
+<h4>git status</h4>
+<p>If a user creates, changes, or deletes a file, then their local version of the repository (branch?) differs from the repository on github.</p>
+<p>If the user runs:</p>
+<p>
+  <code>git status</code>
+</p>
+<p>They will get a message describing any differences.</p>
+<h4>git add</h4>
+<p>After a user completes their changes to a file, they will run:</p>
+<p>
+  <code>git add &lt;file&gt;</code>
+</p>
+<p>This will essentially let your git know you want to add this file to your next commit.</p>
+<h4>git commit and git push</h4>
+<p>After you add your file, you need to create a commit for that change.</p>
+<p>Run the following command:</p>
+<p>
+  <code>git commit</code>
+</p>
+<p>Insert a message</p>
+<ac:structured-macro ac:macro-id="55180db5-733c-4918-b926-668872e8d762" ac:name="expand" ac:schema-version="1">
+  <ac:parameter ac:name="title">Example Message</ac:parameter>
+  <ac:rich-text-body>
+    <p>"Updated github Tutorial<br/>
+      <br/>CASE CM-1857"</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+<p>This will create a commit that you will upload.</p>
+<p>Run <code>git push</code> to upload the commit to the github repository, which contains the changes that you made.</p>
+
