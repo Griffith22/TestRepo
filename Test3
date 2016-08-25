@@ -1,3 +1,0 @@
-# Test3, looks like any file added to the repo directly in github will not show up in a git status in whatever branch you are in.
-# Going to create a file to see if something new shows up in git fetch.
-# If there is an indicator that something is different, to show the user they need to run a git merge...
